@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Static Website BP</title>
+    <title>JavaScript Test</title>
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="stylesheets/master.css" type="text/css">
@@ -13,6 +13,13 @@
 
   </head>
   <body>
-    <p>This is a simple HTML/CSS/SASS boiler plate ready for you.</p>
+    <h1>Input</h1><br>
+    <h2>What number do you want me to find the greatest factor for?</h2><br>
+    <input type="text" name="" id="userInput">
+    <input type="checkbox" name="onlyGreatest" id="onlyGreatest"> Find only the greatest factor.<br><br>
+    <button type="button" name="button" onclick="Calculate()">Calculate</button>
+    <button type="button" name="reset" onclick="reset()">Reset</button><br><br>
+    <h1>Output</h1><br>
+    <p id="jsOutlet"><em style="font-style: italic;">Output...</em></p>
   </body>
 </html>
