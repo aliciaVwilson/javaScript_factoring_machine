@@ -9,8 +9,6 @@ let totalFactors = 1;
 
 //MASTER FUNCTIONS
 
-
-
 function Calculate(){
   // needed to store final output string
   let msg = "";
